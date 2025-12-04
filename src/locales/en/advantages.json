@@ -1,0 +1,33 @@
+{
+  "advantages": {
+    "title": "Why Choose Us?",
+    "stats": [
+      { "number": 7, "suffix": "+", "label": "Years of Experience" },
+      { "number": 9500, "suffix": "+", "label": "Completed Projects" },
+      { "number": 3500, "suffix": " m²", "label": "Production Area" },
+      { "number": 100, "suffix": "%", "label": "Quality Guarantee" }
+    ],
+    "list": [
+      {
+        "title": "Modern Equipment",
+        "desc": "TRUMPF, Amada, Bystronic",
+        "icon": "https://api.iconify.design/mdi:robot-industrial.svg?color=white&width=40"
+      },
+      {
+        "title": "Skilled Team",
+        "desc": "20+ Certified Specialists",
+        "icon": "https://api.iconify.design/mdi:account-hard-hat.svg?color=white&width=40"
+      },
+      {
+        "title": "Fast Delivery",
+        "desc": "3-7 Days Across Uzbekistan",
+        "icon": "https://api.iconify.design/mdi:truck-fast.svg?color=white&width=40"
+      },
+      {
+        "title": "Personalized Service",
+        "desc": "Custom Quote for Every Project",
+        "icon": "https://api.iconify.design/mdi:handshake.svg?color=white&width=40"
+      }
+    ]
+  }
+}

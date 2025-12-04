@@ -1,0 +1,48 @@
+{
+    "reviews": {
+
+        "title": "Client Reviews",
+        "reviews": [
+          {
+            "name": "Azizbek Kholmatov",
+            "text": "Very professional team! Completed the project ahead of schedule with excellent quality. Now all metal orders go only to USS Engineering.",
+            "platform": "Google Reviews"
+          },
+          {
+            "name": "Dilshod Rakhimov",
+            "text": "Laser cutting and welding done perfectly clean. Price significantly lower than competitors. Thank you so much!",
+            "platform": "2GIS"
+          },
+          {
+            "name": "Shokhrukh Tukhtaev",
+            "text": "Built a factory hangar in 25 days. High-quality materials, perfect welds. 100% recommendation!",
+            "platform": ""
+          },
+          {
+            "name": "Oybek Karimov",
+            "text": "From design to installation — office furniture done in one month. Everything fits perfectly, modern design.",
+            "platform": "Instagram"
+          },
+          {
+            "name": "Rustam Abdullaev",
+            "text": "Installed an 18-meter advertising structure. Safe and beautiful. Clients keep taking photos!",
+            "platform": "Telegram"
+          },
+          {
+            "name": "Kamola Sobirova",
+            "text": "Ordered decorative panels for a restaurant. The result exceeded expectations. Thank you, masters!",
+            "platform": "Facebook"
+          },
+          {
+            "name": "Jamshid Ismailov",
+            "text": "They work with Artel factory — immediately trusted the quality. Made 5000+ parts in 10 days.",
+            "platform": ""
+          },
+          {
+            "name": "Farrukh Mamatov",
+            "text": "Price calculation in 1 hour, no extra charges after signing. Reliable company!",
+            "platform": "Google Reviews"
+          }
+        ]
+    }
+}

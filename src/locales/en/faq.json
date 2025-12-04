@@ -1,0 +1,40 @@
+{
+    "faq" :  {
+
+        "title": "Frequently Asked Questions",
+        "faqs": [
+          {
+            "q": "How long does production take?",
+            "a": "Simple orders: 3-7 days, complex projects: 10-20 days. We set individual deadlines for each project."
+          },
+          {
+            "q": "Do you deliver across Uzbekistan?",
+            "a": "Yes! Tashkent, Samarkand, Bukhara, Fergana — we deliver to all regions with our own transport."
+          },
+          {
+            "q": "Is there a minimum order quantity?",
+            "a": "No! One part or a 100-ton project — we execute both with the same high quality."
+          },
+          {
+            "q": "How can I get a price?",
+            "a": "Use the calculator above or call us — we'll give you an exact quote in 2 minutes."
+          },
+          {
+            "q": "Do you provide warranty?",
+            "a": "Absolutely! All products come with 12 months to 5 years warranty. Quality is our top priority."
+          },
+          {
+            "q": "Can you work without drawings?",
+            "a": "Yes! We have our own design department. Just tell us your idea — we'll create drawings and calculate the cost."
+          },
+          {
+            "q": "How is payment processed?",
+            "a": "50% prepayment, 50% upon delivery. Stage payments available for large projects."
+          },
+          {
+            "q": "Do you offer installation services?",
+            "a": "Yes! We have an experienced installation team. Professional assembly throughout Uzbekistan."
+          }
+        ]
+    }
+}

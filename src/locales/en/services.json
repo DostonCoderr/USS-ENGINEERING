@@ -1,0 +1,46 @@
+{
+  "services": [
+    {
+      "title": "Laser Metal Cutting",
+      "desc": "High-precision cutting of steel, aluminum and stainless steel up to 25mm",
+      "icon": "https://api.iconify.design/mdi:laser-pointer.svg?color=white&width=48",
+      "path": "/services/laser-cutting"
+    },
+    {
+      "title": "Sheet Metal Bending",
+      "desc": "Professional bending up to 6 meters on CNC press brakes",
+      "icon": "https://api.iconify.design/mdi:swap-vertical-bold.svg?color=white&width=48",
+      "path": "/services/bending"
+    },
+    {
+      "title": "Welding Services",
+      "desc": "TIG, MIG/MAG, Argon, Plasma — all types of professional welding",
+      "icon": "https://api.iconify.design/mdi:welding.svg?color=white&width=48",
+      "path": "/services/welding"
+    },
+    {
+      "title": "Powder Coating",
+      "desc": "1000+ RAL colors, long-lasting anti-corrosion protection",
+      "icon": "https://api.iconify.design/mdi:spray.svg?color=white&width=48",
+      "path": "/services/powder-coating"
+    },
+    {
+      "title": "Metal Structures Fabrication",
+      "desc": "Warehouses, hangars, canopies, commercial buildings — turnkey",
+      "icon": "https://api.iconify.design/mdi:factory.svg?color=white&width=48",
+      "path": "/services/metal-structures"
+    },
+    {
+      "title": "Custom Manufacturing",
+      "desc": "Production from your drawings (DXF, DWG, PDF) with 100% accuracy",
+      "icon": "https://api.iconify.design/mdi:drawing.svg?color=white&width=48",
+      "path": "/services/custom-parts"
+    },
+    {
+      "title": "Metal Furniture & Decor",
+      "desc": "LOFT style furniture, tables, chairs, decorative panels",
+      "icon": "https://api.iconify.design/mdi:chair-rolling.svg?color=white&width=48",
+      "path": "/services/metal-furniture"
+    }
+  ]
+}

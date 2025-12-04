@@ -1,0 +1,42 @@
+{
+  "portfolio": {
+    "title": "Portfolio",
+    "view_all": "Barchasini ko‘rish",
+    "details": "Batafsil",
+    "order": "Buyurtma berish",
+    "projects": [
+      { "id": 1, "title": "Savdo markazi", "desc": "Toshkent, 1200 m²" },
+      { "id": 2, "title": "Zavod angarlari", "desc": "Farg‘ona, 3500 m²" },
+      {
+        "id": 3,
+        "title": "Lazer kesim detallari",
+        "desc": "Artel uchun 5000+ dona"
+      },
+      {
+        "id": 4,
+        "title": "Ofis mebeli",
+        "desc": "Metall + shisha kombinatsiyasi"
+      },
+      {
+        "id": 5,
+        "title": "Payvandlash loyihasi",
+        "desc": "IMZO, 40 tonna konstruktsiya"
+      },
+      {
+        "id": 6,
+        "title": "Dekorativ panellar",
+        "desc": "Restoran va kafe dizayni"
+      },
+      {
+        "id": 7,
+        "title": "Sanoat eshiklari",
+        "desc": "Avtomatik ochilish tizimi"
+      },
+      {
+        "id": 8,
+        "title": "Reklama konstruktsiyasi",
+        "desc": "Toshkent City, 18 metr balandlik"
+      }
+    ]
+  }
+}

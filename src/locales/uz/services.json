@@ -1,0 +1,52 @@
+{
+  "services": [
+    {
+      "title": "Lazer orqali metall kesish",
+      "desc": "Yuqori aniqlikda qora metall, alyuminiy va zanglamaydigan po‘latni kesish",
+      "icon": "https://api.iconify.design/mdi:laser-pointer.svg?color=white&width=48",
+      "path": "/services/laser-cutting"
+    },
+    {
+      "title": "Metallga ishlov berish",
+      "desc": "Murakkab shakllar va qalin metallarni yuqori sifatda bukish va shakllantirish",
+      "icon": "https://api.iconify.design/mdi:angle-acute.svg?color=white&width=48",
+      "path": "/services/sheet-bending"
+    },
+    {
+      "title": "Gibka (egish)",
+      "desc": "Listogib uskunasida 6 metrgacha uzunlikdagi detallarni aniq egish",
+      "icon": "https://api.iconify.design/mdi:swap-vertical-bold.svg?color=white&width=48",
+      "path": "/services/bending"
+    },
+    {
+      "title": "Payvandlash (svarka)",
+      "desc": "Argon, TIG, MIG/MAG, plazma — har qanday turdagi professional payvandlash",
+      "icon": "https://api.iconify.design/mdi:welding.svg?color=white&width=48",
+      "path": "/services/welding"
+    },
+    {
+      "title": "Bo‘yash (balonchik / poroshkavoy)",
+      "desc": "Poroshkali bo‘yash va balonchik — 1000+ rang, uzoq muddatli himoya",
+      "icon": "https://api.iconify.design/mdi:spray.svg?color=white&width=48",
+      "path": "/services/powder-coating"
+    },
+    {
+      "title": "Metall konstruksiyalar tayyorlash",
+      "desc": "Angarlar, omborxona, pavilyon, savdo markazlari uchun mustahkam konstruktsiyalar",
+      "icon": "https://api.iconify.design/mdi:factory.svg?color=white&width=48",
+      "path": "/services/metal-structures"
+    },
+    {
+      "title": "Chizma bo‘yicha ishlab chiqarish",
+      "desc": "DXF, DWG, PDF — sizning loyihangiz bo‘yicha 100% aniq detal ishlab chiqarish",
+      "icon": "https://api.iconify.design/mdi:drawing.svg?color=white&width=48",
+      "path": "/services/custom-parts"
+    },
+    {
+      "title": "Metall mebel va dekor",
+      "desc": "Loft uslubidagi mebel, stollar, stullar, dekorativ panellar va elementlar",
+      "icon": "https://api.iconify.design/mdi:chair-rolling.svg?color=white&width=48",
+      "path": "/services/metal-furniture"
+    }
+  ]
+}

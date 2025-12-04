@@ -1,0 +1,30 @@
+{
+  "portfolio": {
+    "title": "Portfolio",
+    "view_all": "View All",
+    "details": "Details",
+    "order": "Order Now",
+    "projects": [
+      { "id": 1, "title": "Shopping Mall", "desc": "Tashkent, 1200 m²" },
+      { "id": 2, "title": "Factory Hangars", "desc": "Fergana, 3500 m²" },
+      { "id": 3, "title": "Laser Cut Parts", "desc": "For Artel, 5000+ pcs" },
+      {
+        "id": 4,
+        "title": "Office Furniture",
+        "desc": "Metal + Glass Combination"
+      },
+      { "id": 5, "title": "Welding Project", "desc": "IMZO, 40 tons" },
+      {
+        "id": 6,
+        "title": "Decorative Panels",
+        "desc": "Restaurant & Cafe Design"
+      },
+      { "id": 7, "title": "Industrial Gates", "desc": "Automatic System" },
+      {
+        "id": 8,
+        "title": "Advertising Structure",
+        "desc": "Tashkent City, 18m height"
+      }
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "advantages": {
+    "title": "Nima uchun bizni tanlashadi?",
+    "stats": [
+      { "number": 7, "suffix": "+", "label": "Yillik tajriba" },
+      { "number": 9500, "suffix": "+", "label": "Tugallangan loyiha" },
+      { "number": 3500, "suffix": " m²", "label": "Ishlab chiqarish maydoni" },
+      { "number": 100, "suffix": "%", "label": "Sifat kafolati" }
+    ],
+    "list": [
+      {
+        "title": "Zamonaviy uskunalar",
+        "desc": "TRUMPF, Amada, Bystronic",
+        "icon": "https://api.iconify.design/mdi:robot-industrial.svg?color=white&width=40"
+      },
+      {
+        "title": "Malakali jamoa",
+        "desc": "20+ sertifikatlangan mutaxassis",
+        "icon": "https://api.iconify.design/mdi:account-hard-hat.svg?color=white&width=40"
+      },
+      {
+        "title": "Tez yetkazib berish",
+        "desc": "O‘zbekiston bo‘ylab 3-7 kun",
+        "icon": "https://api.iconify.design/mdi:truck-fast.svg?color=white&width=40"
+      },
+      {
+        "title": "Individual yondashuv",
+        "desc": "Har bir loyiha uchun maxsus hisob",
+        "icon": "https://api.iconify.design/mdi:handshake.svg?color=white&width=40"
+      }
+    ]
+  }
+}

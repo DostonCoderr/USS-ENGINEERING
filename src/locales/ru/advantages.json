@@ -1,0 +1,33 @@
+{
+  "advantages": {
+    "title": "Почему выбирают нас?",
+    "stats": [
+      { "number": 7, "suffix": "+", "label": "Лет опыта" },
+      { "number": 9500, "suffix": "+", "label": "Завершенных проектов" },
+      { "number": 3500, "suffix": " м²", "label": "Производственная площадь" },
+      { "number": 100, "suffix": "%", "label": "Гарантия качества" }
+    ],
+    "list": [
+      {
+        "title": "Современное оборудование",
+        "desc": "TRUMPF, Amada, Bystronic",
+        "icon": "https://api.iconify.design/mdi:robot-industrial.svg?color=white&width=40"
+      },
+      {
+        "title": "Квалифицированная команда",
+        "desc": "20+ сертифицированных специалистов",
+        "icon": "https://api.iconify.design/mdi:account-hard-hat.svg?color=white&width=40"
+      },
+      {
+        "title": "Быстрая доставка",
+        "desc": "По всему Узбекистану за 3–7 дней",
+        "icon": "https://api.iconify.design/mdi:truck-fast.svg?color=white&width=40"
+      },
+      {
+        "title": "Индивидуальный подход",
+        "desc": "Особый расчет для каждого проекта",
+        "icon": "https://api.iconify.design/mdi:handshake.svg?color=white&width=40"
+      }
+    ]
+  }
+}

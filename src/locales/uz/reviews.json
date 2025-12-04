@@ -1,0 +1,47 @@
+{
+  "reviews": {
+    "title": "Mijozlarimiz fikri",
+    "reviews": [
+      {
+        "name": "Azizbek Xolmatov",
+        "text": "Jamoa juda professional! Loyihani belgilangan muddatdan oldin topshirdi, sifat a’lo darajada. Endi barcha metall buyurtmalarimni faqat USS Engineering ga beraman.",
+        "platform": "Google Reviews"
+      },
+      {
+        "name": "Dilshod Raximov",
+        "text": "Lazer kesim va payvandlash ishlarini juda aniq va toza bajarishdi. Narx ham raqobatchilardan ancha past. Rahmat katta jamoaga!",
+        "platform": "2GIS"
+      },
+      {
+        "name": "Shoxrux To‘xtayev",
+        "text": "Zavod angarimizni 25 kunda tayyor qilib berishdi. Materiallar sifatli, payvand choklari mukammal. Ishonch bilan tavsiya qilaman!",
+        "platform": ""
+      },
+      {
+        "name": "Oybek Karimov",
+        "text": "Ofis mebelini dizayndan tortib o‘rnatishgacha bir oyda bajarishdi. Hamma narsa o‘lchamiga to‘g‘ri keldi, dizayn zamonaviy.",
+        "platform": "Instagram"
+      },
+      {
+        "name": "Rustam Abdullayev",
+        "text": "Reklama konstruktsiyamizni 18 metr balandlikda o‘rnatishdi. Hamma narsa xavfsiz va chiroyli. Mijozlar doim suratga tushib yurishadi!",
+        "platform": "Telegram"
+      },
+      {
+        "name": "Kamola Sobirova",
+        "text": "Restoran uchun dekorativ panellar buyurtma qildik. Natija kutganimizdan ham yaxshi chiqdi. Rahmat ustalar!",
+        "platform": "Facebook"
+      },
+      {
+        "name": "Jamshid Ismoilov",
+        "text": "Artel zavodi bilan hamkorlik qilishadi, shuning uchun sifatga 100% ishonch hosil qildim. 5000+ detalni 10 kunda tayyorlashdi.",
+        "platform": ""
+      },
+      {
+        "name": "Farrux Mamatov",
+        "text": "Narxni 1 soat ichida hisoblab berishdi, shartnoma imzolagandan keyin hech qanday qo‘shimcha to‘lov yo‘q edi. Ishonchli kompaniya!",
+        "platform": "Google Reviews"
+      }
+    ]
+  }
+}

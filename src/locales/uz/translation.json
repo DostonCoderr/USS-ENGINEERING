@@ -1,0 +1,408 @@
+{
+  "header": {
+    "home": "Bosh sahifa",
+    "services": "Xizmatlar",
+    "about": "Biz haqimizda",
+    "portfolio": "Portfolio",
+    "contact": "Aloqa",
+    "call_us": "Bog‘lanish"
+  },
+  "common": {
+    "all_services": "Barcha xizmatlar",
+    "our_partners": "Ishonchli hamkorlarimiz",
+    "get_price": "1 soat ichida narx",
+    "send_file": "Fayl yuborish"
+  },
+  "hero": {
+    "subtitle": "Sifatli metall konstruktsiyalar – sizning loyihangiz uchun",
+    "cta_button": "Bepul hisob-kitob olish"
+  },
+
+  "partners": {
+    "title": "Ishonchli hamkorlarimiz"
+  },
+
+  "calculator": {
+    "title": "Tezkor narx hisoblagich",
+    "subtitle": "Material, qalinlik va o‘lchamni tanlang – taxminiy narxni bilib oling",
+    "material_label": "Material turi",
+    "thickness_label": "Qalinlik",
+    "width_label": "Eni (mm)",
+    "height_label": "Bo‘yi (mm)",
+    "quantity_label": "Miqdori (dona)",
+    "result_title": "Taxminiy hisob",
+    "material": "Material:",
+    "thickness": "Qalinlik:",
+    "weight_one": "Og‘irligi (1 dona):",
+    "total_weight": "Jami og‘irlik:",
+    "total_price": "Taxminiy narx:",
+    "price_per_kg": "dona × {price} so‘m/kg",
+    "order_button": "Buyurtma berish",
+    "kg": "kg",
+    "sum": "so‘m",
+    "materials": [
+      { "name": "Qora po‘lat", "price": 13500 },
+      { "name": "Galvaniz po‘lat", "price": 16800 },
+      { "name": "Alyuminiy", "price": 42000 },
+      { "name": "Nerjaveyka (INOX)", "price": 78000 },
+      { "name": "Mis", "price": 125000 }
+    ],
+    "thicknesses": [
+      "1 mm",
+      "1.5 mm",
+      "2 mm",
+      "3 mm",
+      "4 mm",
+      "5 mm",
+      "6 mm",
+      "8 mm",
+      "10 mm"
+    ]
+  },
+  "cta": {
+    "title": "Tez aloqa",
+    "promise": "15 daqiqada javob beramiz",
+    "button": "Zayavka qoldirish",
+    "subtitle": "Faqat loyihangiz haqida gaplashamiz. Spam yo‘q."
+  },
+  "contact": {
+    "title": "Biz bilan bog‘laning",
+    "subtitle": "Bizning mutaxassislarimiz har qanday savolingizga javob berishga tayyor.",
+
+    "phone_label": "Telefon raqam",
+    "address_label": "Manzil",
+    "hours_label": "Ish vaqti",
+
+    "form": {
+      "name_label": "Ismingiz",
+      "name_placeholder": "Azizbek Karimov",
+      "phone_label": "Telefon",
+      "phone_placeholder": "+998 95 168 75 55",
+      "message_label": "Xabar (ixtiyoriy)",
+      "message_placeholder": "Qanday yordam bera olamiz?",
+      "submit_button": "Yuborish – 15 daqiqada javob beramiz"
+    },
+
+    "info": {
+      "phone_title": "Telefon",
+      "phone": "+998 95 168 75 55",
+
+      "email_title": "E-Mail",
+      "email": "info@metall.uz",
+
+      "address_title": "Manzil",
+      "address_short": "Toshkent, Sergeli",
+      "address_full": "Toshkent sh., Olmazor tumani, G‘ani A’zamov mahallasi (Real manzil)",
+      "address": "Toshkent sh., Olmazor tumani, G‘ani A’zamov mahallasi (Real manzil)",
+
+      "hours_title": "Ish vaqti",
+      "hours": "09:00 – 21:00",
+      "hours_text": "Har kuni, dam olish kunlarisiz"
+    },
+
+    "cta_button": "Hozir qo‘ng‘iroq qilish"
+  },
+  "footer": {
+    "description": "7+ yillik tajriba. Zamonaviy uskunalar. Professional jamoa.\n\nMetallga ishlov berish bo‘yicha O‘zbekistondagi eng ishonchli hamkor.",
+    "services_title": "Xizmatlar",
+    "services": [
+      "Lazer kesim",
+      "Listogib ishlari",
+      "Poroshkali bo‘yash",
+      "Payvandlash",
+      "Metall konstruktsiyalar",
+      "Maxsus buyurtmalar",
+      "Metall mebel"
+    ],
+    "nav_title": "Sayt bo‘limlari",
+    "nav": [
+      "Bosh sahifa",
+      "Biz haqimizda",
+      "Portfolio",
+      "Ko‘p beriladigan savollar",
+      "Bog‘lanish"
+    ],
+    "contact_title": "Biz bilan bog‘laning",
+    "phone_label": "Telefon (24/7)",
+    "phone": "+998 95 168 75 55",
+    "address_label": "Manzil",
+    "address": "Toshkent sh., Olmazor tumani, G‘ani A’zamov mahallasi",
+    "hours_label": "Ish vaqti",
+    "hours": "Dushanba — Shanba: 09:00 – 18:00",
+    "copyright": "© 2025 USS Engineering. Barcha huquqlar himoyalangan.",
+    "made_with": "Made with ♥ in Uzbekistan"
+  },
+  "custom": {
+    "title": "Chizma bo‘yicha ishlab chiqarish",
+    "subtitle": "Har qanday murakkablikdagi metall buyumlar: mashina qismlari, ehtiyot qismlar, maxsus konstruktsiyalar",
+    "cta_calc": "Hisob-kitob olish",
+    "cta_portfolio": "Portfolio ko‘rish",
+
+    "stats": {
+      "any": "Har qanday",
+      "complexity": "Murakkablik",
+      "precision": "Yuqori aniqlik",
+      "tolerance": "Tolerans",
+      "days": "kun",
+      "production": "Ishlab chiqarish"
+    },
+
+    "advantages": {
+      "free_design": "Dizayn bepul",
+      "prototype": "Namuna yasaymiz",
+      "equipment": "Trumpf + Amada uskunalari",
+      "warranty": "5 yil kafolat",
+      "delivery": "Toshkent bo‘ylab bepul yetkazish",
+      "fast_prototype": "3 kun ichida prototip"
+    }
+  },
+  "laser": {
+    "title": "Lazer orqali metall kesish",
+    "cta_calc": "Hisob-kitob olish",
+    "cta_portfolio": "Portfolio ko‘rish",
+
+    "thickness": {
+      "steel": "Qora po‘lat",
+      "stainless": "Zanglamas po‘lat",
+      "aluminum": "Alyuminiy",
+      "copper": "Mis / Latun"
+    },
+
+    "advantages": {
+      "ready": "Darrov tayyor detal",
+      "equipment": "Trumpf TruLaser 20 kVt",
+      "free_drawing": "DXF yo‘qmi? Bepul chizamiz",
+      "fast": "1 soatdan 3 kungacha",
+      "warranty": "36 oy kafolat",
+      "delivery": "O‘zbekiston bo‘ylab bepul yetkazib berish"
+    },
+
+    "faq": {
+      "no_dxf": "DXF fayl yo‘qmi?",
+      "no_dxf_answer": "Muammo emas — bepul chizamiz",
+      "time": "Qancha vaqt ketadi?",
+      "time_answer": "1-14 kun (hajmga qarab)",
+      "delivery": "Yetkazib berish bormi?",
+      "delivery_answer": "Ha, butun O‘zbekiston bo‘ylab bepul"
+    },
+
+    "final_cta": "1 soat ichida aniq narx",
+    "send_file": "Fayl yuborish"
+  },
+  "furniture": {
+    "title": "Metall mebel va dekor",
+    "cta_calc": "Hisob-kitob olish",
+    "cta_portfolio": "Portfolio ko‘rish",
+
+    "stats": {
+      "individual": "Individual",
+      "design": "Dizayn",
+      "material": "Materiallar",
+      "strong": "Kuchli",
+      "structure": "Konstruktsiya",
+      "year": "yil",
+      "warranty": "Kafolat"
+    },
+
+    "advantages": {
+      "free_design": "Dizayn bepul",
+      "custom_size": "Sizning o‘lchamingiz bo‘yicha",
+      "free_delivery": "Toshkent bo‘ylab bepul yetkazish",
+      "warranty": "5 yil kafolat",
+      "german_paint": "Germaniya poroshka bo‘yog‘i",
+      "fast_production": "Tez ishlab chiqarish"
+    },
+
+    "faq": {
+      "own_design": "O‘z dizaynimiz bormi?",
+      "own_design_answer": "Albatta! Sizning fotosurat yoki eskizingiz bo‘yicha bepul chizamiz",
+      "time": "Qancha vaqt ketadi?",
+      "time_answer": "7-21 kun (murakkablikka qarab)",
+      "installation": "O‘rnatish bormi?",
+      "installation_answer": "Ha, Toshkent ichida bepul o‘rnatamiz"
+    },
+
+    "final_cta": "1 soat ichida narx bilib oling",
+    "send_photo": "Rasm yoki fayl yuborish"
+  },
+  "metal": {
+    "title": "Chizma bo‘yicha ishlab chiqarish",
+    "subtitle": "Har qanday murakkablikdagi metall buyumlar: mashina qismlari, ehtiyot qismlar, maxsus konstruktsiyalar",
+    "cta_calc": "Hisob-kitob olish",
+    "cta_portfolio": "Portfolio ko‘rish",
+
+    "stats": {
+      "any": "Har qanday",
+      "complexity": "Murakkablik",
+      "precision": "Yuqori aniqlik",
+      "tolerance": "Tolerans",
+      "days": "kun",
+      "production": "Ishlab chiqarish muddati"
+    },
+
+    "advantages": {
+      "free_design": "Dizayn va chizma bepul",
+      "prototype": "Namuna (prototip) yasaymiz",
+      "equipment": "Trumpf, Amada, Bystronic uskunalari",
+      "warranty": "5 yil kafolat",
+      "delivery": "O‘zbekiston bo‘ylab bepul yetkazish",
+      "fast_prototype": "3-5 kun ichida prototip"
+    }
+  },
+  "powder": {
+    "title": "Poroshkali (polimer) bo‘yash",
+    "cta_calc": "Hisob-kitob olish",
+    "cta_portfolio": "Portfolio ko‘rish",
+
+    "capabilities": {
+      "colors": "RAL ranglar",
+      "antibacterial": "Antibakterial qoplama",
+      "year": "yil",
+      "color_retention": "Rang saqlanishi",
+      "chamber": "Bo‘yash kamerasi"
+    },
+
+    "advantages": {
+      "eco": "100% ekologik toza",
+      "corrosion": "Korroziyaga 100% chidamli",
+      "antibacterial": "Antibakterial himoya",
+      "equipment": "Italiya-Germaniya uskunalari",
+      "fast_drying": "Tez quriydigan texnologiya",
+      "delivery": "O‘zbekiston bo‘ylab bepul yetkazish"
+    },
+
+    "faq": {
+      "any_color": "Har qanday rang bo‘yadimi?",
+      "any_color_answer": "Ha! RAL katalog bo‘yicha 10 000+ rang",
+      "large_parts": "Katta detallarni bo‘yaysizlarmi?",
+      "large_parts_answer": "Ha, 6 metrgacha kamera bor",
+      "delivery": "Yetkazib berish bormi?",
+      "delivery_answer": "Albatta, butun O‘zbekiston bo‘ylab bepul",
+      "warranty": "Kafolat bormi?",
+      "warranty_answer": "15 yil rang saqlanishi kafolati"
+    },
+
+    "final_cta": "1 soat ichida aniq narx",
+    "send_dimensions": "Detal o‘lchami yuborish"
+  },
+  "welding": {
+    "title": "Payvandlash (svarka)",
+    "cta_calc": "Hisob-kitob olish",
+    "cta_portfolio": "Portfolio ko‘rish",
+
+    "thickness": {
+      "steel": "Qora po‘lat",
+      "stainless": "Zanglamas po‘lat",
+      "aluminum": "Alyuminiy",
+      "methods": "Usullar"
+    },
+
+    "advantages": {
+      "quality": "Yuqori sifatli, toza chok",
+      "fronius": "Fronius (Avstriya) uskunalari",
+      "complex": "Murakkab konstruktsiyalar",
+      "fast": "Tez va sifatli bajarish",
+      "warranty": "36 oy kafolat",
+      "delivery": "O‘zbekiston bo‘ylab bepul yetkazish"
+    },
+
+    "faq": {
+      "argon": "Argon payvandlash (TIG) bormi?",
+      "argon_answer": "Ha, professional TIG usulida",
+      "thick": "Qalin metallarni payvand qilasizlarmi?",
+      "thick_answer": "Qora po‘lat — 100 mm gacha",
+      "delivery": "Yetkazib berish bormi?",
+      "delivery_answer": "Albatta, butun mamlakat bo‘ylab bepul"
+    },
+
+    "final_cta": "1 soat ichida aniq narx",
+    "send_drawing": "Chizma yoki rasm yuborish"
+  },
+  "bending": {
+    "title": "Metall varaqlarni bukish (gibka)",
+    "cta_calc": "Hisob-kitob olish",
+    "cta_portfolio": "Portfolio ko‘rish",
+
+    "thickness": {
+      "steel": "Qora po‘lat",
+      "stainless": "Zanglamas po‘lat",
+      "aluminum": "Alyuminiy",
+      "length": "Maksimal uzunlik"
+    },
+
+    "advantages": {
+      "precision": "±0.5° aniqlik",
+      "equipment": "Italiya CNC listogib (6 metr)",
+      "complex": "Istagan murakkab shakl",
+      "fast": "Tez va sifatli bajarish",
+      "quality": "100% kafolatli sifat",
+      "delivery": "O‘zbekiston bo‘ylab bepul yetkazish"
+    },
+
+    "faq": {
+      "complex": "Murakkab shakllarni bukish mumkinmi?",
+      "complex_answer": "Ha! Har qanday radius va burchak",
+      "time": "Qancha vaqt ketadi?",
+      "time_answer": "1-7 kun (hajmga qarab)",
+      "delivery": "Yetkazib berish bormi?",
+      "delivery_answer": "Albatta, butun O‘zbekiston bo‘ylab bepul"
+    },
+
+    "final_cta": "1 soat ichida aniq narx",
+    "send_file": "DXF yoki rasm yuborish"
+  },
+  "about": {
+    "description": "USS Engineering — metallga ishlov berish sohasida zamonaviy texnologiyalarni qo‘llab, mijozlarga aniq, sifatli va samarali yechimlar taqdim etuvchi kompaniya.",
+    "mission_title": "Missiyamiz",
+    "mission": "Har bir loyihani mukammal bajarish, mijozga ishonch va sifatni kafolatlash. 7 yildan ortiq tajribamiz bilan har bir buyurtmani o‘z ishimizdek qabul qilamiz.",
+    "experience_title": "7+ yillik tajriba va ishonchli hamkorlik",
+    "experience_desc": "Kichik metall detallardan tortib yirik sanoat konstruktsiyalarigacha – bizda barchasi uchun professional yechim bor. Har bir mijozga individual yondashuv va eng yuqori sifat kafolati.",
+    "experience_point1": "Yirik korxonalar bilan hamkorlik",
+    "experience_point2": "Har bir mijozga shaxsiy yondashuv",
+    "stats_projects": "Bajarilgan loyiha",
+    "stats_quality": "Kafolatlangan sifat",
+    "partners_title": "Ishonchli hamkorlarimiz",
+    "why_title": "Nega bizni tanlashadi?",
+    "why_quality": "Sifat va kafolat",
+    "why_quality_desc": "Har bir mahsulot sinovdan o‘tadi",
+    "why_delivery": "Vaqtida yetkazib berish",
+    "why_delivery_desc": "Kelishilgan muddat – muqaddas",
+    "why_team": "Professional jamoa",
+    "why_team_desc": "7+ yillik tajribaga ega mutaxassislar",
+    "cta_title": "Loyihangizni boshlashga tayyormisiz?",
+    "cta_button": "Bog‘lanish",
+    "title": "Biz haqimizda",
+    "mainText1": "<strong>USS Engineering</strong> — metallga ishlov berish sohasida zamonaviy texnologiyalarni qo‘llab, mijozlarga aniq, sifatli va samarali yechimlar taqdim etuvchi kompaniya.",
+    "mainText2": "<strong class='text-indigo-400'>Missiyamiz:</strong> Har bir loyihani mukammal bajarish, mijozga ishonch va sifatni kafolatlash.",
+    "mainText3": "7 yildan ortiq tajriba davomida kichik metall detalidan tortib yirik sanoat konstruktsiyalarigacha bo‘lgan barcha turdagi loyihalarni muvaffaqiyatli amalga oshirdik.",
+    "features": [
+      "Sifat va kafolat",
+      "Vaqtida yetkazib berish",
+      "Har bir buyurtmaga professional yondashuv",
+      "Individual loyihalash va hisob-kitob"
+    ],
+    "button": "Batafsil ma’lumot",
+    "yearsTitle": "Yillik muvaffaqiyatli tajriba",
+    "yearsDesc": "Yuzlab loyihalar, minglab tonna metall, millionlab mijoz tabassumi",
+    "partnersTitle": "Ishonchli hamkorlarimiz"
+  },
+  "services": {
+    "subtitle": "8 ta yo‘nalish • Professional sifat • 7+ yillik tajriba",
+    "title": "Xizmatlarimiz",
+    "description": "Har bir bosqichda sifat nazorati va zamonaviy texnologiyalar",
+    "more_details": "Batafsil",
+    "cta_button": "Bepul maslahat olish",
+    "list": {
+      "laser": "Lazer kesim",
+      "bending": "Varaq bukish (gibka)",
+      "powder": "Poroshkali bo‘yash",
+      "welding": "Payvandlash (svarka)",
+      "structures": "Metallkonstruktsiyalar",
+      "custom": "Chizma bo‘yicha detallar",
+      "furniture": "Metall mebel va dekor",
+      "design3d": "3D loyihalash"
+    },
+
+    "back_home": "Bosh sahifaga"
+  }
+}

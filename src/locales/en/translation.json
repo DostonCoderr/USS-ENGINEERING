@@ -1,0 +1,390 @@
+{
+  "header": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About Us",
+    "portfolio": "Portfolio",
+    "contact": "Contact",
+    "call_us": "Get in Touch"
+  },
+  "common": {
+    "all_services": "All Services",
+    "our_partners": "Our Trusted Partners",
+    "get_price": "Quote in 1 Hour",
+    "send_file": "Send File"
+  },
+  "hero": {
+    "subtitle": "High-Quality Metal Structures — For Your Project",
+    "cta_button": "Get Free Quote"
+  },
+
+
+
+  "partners": {
+    "title": "Our Trusted Partners"
+  },
+  "calculator": {
+    "title": "Quick Price Calculator",
+    "subtitle": "Select material, thickness and dimensions — get an estimated price",
+    "material_label": "Material Type",
+    "thickness_label": "Thickness",
+    "width_label": "Width (mm)",
+    "height_label": "Height (mm)",
+    "quantity_label": "Quantity (pcs)",
+    "result_title": "Estimated Calculation",
+    "material": "Material:",
+    "thickness": "Thickness:",
+    "weight_one": "Weight (1 pc):",
+    "total_weight": "Total weight:",
+    "total_price": "Estimated price:",
+    "price_per_kg": "pcs × {price} UZS/kg",
+    "order_button": "Place Order",
+    "kg": "kg",
+    "sum": "UZS",
+    "materials": [
+      { "name": "Black Steel", "price": 13500 },
+      { "name": "Galvanized Steel", "price": 16800 },
+      { "name": "Aluminum", "price": 42000 },
+      { "name": "Stainless Steel (INOX)", "price": 78000 },
+      { "name": "Copper", "price": 125000 }
+    ],
+    "thicknesses": [
+      "1 mm",
+      "1.5 mm",
+      "2 mm",
+      "3 mm",
+      "4 mm",
+      "5 mm",
+      "6 mm",
+      "8 mm",
+      "10 mm"
+    ]
+  },
+  "cta": {
+    "title": "Quick Contact",
+    "promise": "We reply in 15 minutes",
+    "button": "Send Request",
+    "subtitle": "Only about your project. No spam."
+  },
+  "contact": {
+    "title": "Contact Us",
+    "form": {
+      "name_label": "Your Name",
+      "name_placeholder": "Azizbek Karimov",
+      "phone_label": "Phone",
+      "phone_placeholder": "+998 95 168 75 55",
+      "message_label": "Message (optional)",
+      "message_placeholder": "How can we help you?",
+      "submit_button": "Send – We reply in 15 minutes"
+    },
+    "info": {
+      "phone_title": "Phone",
+      "phone": "+998 95 168 75 55",
+      "address_title": "Address",
+      "address": "Tashkent, Almazar district, mahalla gathering of citizens Gani Azamov"
+    }
+  },
+  "footer": {
+    "description": "7+ years of experience. Modern equipment. Professional team.\n\nThe most reliable metal fabrication partner in Uzbekistan.",
+    "services_title": "Services",
+    "services": [
+      "Laser Cutting",
+      "Sheet Metal Bending",
+      "Powder Coating",
+      "Welding",
+      "Metal Structures",
+      "Custom Orders",
+      "Metal Furniture"
+    ],
+    "nav_title": "Site Sections",
+    "nav": [
+      "Home",
+      "About Us",
+      "Portfolio",
+      "FAQ",
+      "Contact"
+    ],
+    "contact_title": "Get in Touch",
+    "phone_label": "Phone (24/7)",
+    "phone": "+998 99 123-45-67",
+    "address_label": "Address",
+    "address": "Tashkent, Almazar district, mahalla gathering of citizens Gani Azamov",
+    "hours_label": "Working Hours",
+    "hours": "Monday — Saturday: 09:00 – 18:00",
+    "copyright": "© 2025 USS Engineering. All rights reserved.",
+    "made_with": "Made with ♥ in Uzbekistan"
+  },
+  "custom": {
+  "title": "Custom Manufacturing from Drawings",
+  "subtitle": "Any complexity parts: machine components, spare parts, custom metal structures",
+  "cta_calc": "Get Quote",
+  "cta_portfolio": "View Portfolio",
+
+  "stats": {
+    "any": "Any",
+    "complexity": "Complexity",
+    "precision": "High Precision",
+    "tolerance": "Tolerance",
+    "days": "days",
+    "production": "Production"
+  },
+
+  "advantages": {
+    "free_design": "Free Design",
+    "prototype": "We Make Prototype",
+    "equipment": "Trumpf + Amada Equipment",
+    "warranty": "5-Year Warranty",
+    "delivery": "Free Delivery in Tashkent",
+    "fast_prototype": "Prototype in 3 Days"
+  }
+},
+"laser": {
+  "title": "Laser Metal Cutting",
+  "cta_calc": "Get Quote",
+  "cta_portfolio": "View Portfolio",
+
+  "thickness": {
+    "steel": "Carbon Steel",
+    "stainless": "Stainless Steel",
+    "aluminum": "Aluminum",
+    "copper": "Copper / Brass"
+  },
+
+  "advantages": {
+    "ready": "Ready parts immediately",
+    "equipment": "Trumpf TruLaser 20 kW",
+    "free_drawing": "No DXF? We draw for free",
+    "fast": "From 1 hour to 3 days",
+    "warranty": "36-month warranty",
+    "delivery": "Free delivery across Uzbekistan"
+  },
+
+  "faq": {
+    "no_dxf": "No DXF file?",
+    "no_dxf_answer": "No problem — we draw it for free",
+    "time": "How long does it take?",
+    "time_answer": "1–14 days (depending on volume)",
+    "delivery": "Do you deliver?",
+    "delivery_answer": "Yes, free delivery throughout Uzbekistan"
+  },
+
+  "final_cta": "Exact price in 1 hour",
+  "send_file": "Send File"
+},
+"furniture": {
+  "title": "Metal Furniture & Decor",
+  "cta_calc": "Get Quote",
+  "cta_portfolio": "View Portfolio",
+
+  "stats": {
+    "individual": "Custom",
+    "design": "Design",
+    "material": "Premium Materials",
+    "strong": "Strong",
+    "structure": "Construction",
+    "year": "years",
+    "warranty": "Warranty"
+  },
+
+  "advantages": {
+    "free_design": "Free Design",
+    "custom_size": "Made to Your Size",
+    "free_delivery": "Free Delivery in Tashkent",
+    "warranty": "5-Year Warranty",
+    "german_paint": "German Powder Coating",
+    "fast_production": "Fast Production"
+  },
+
+  "faq": {
+    "own_design": "Have your own design?",
+    "own_design_answer": "Yes! We draw for free from your photo or sketch",
+    "time": "How long does it take?",
+    "time_answer": "7–21 days",
+    "installation": "Do you install?",
+    "installation_answer": "Yes, free installation in Tashkent"
+  },
+
+  "final_cta": "Get exact price in 1 hour",
+  "send_photo": "Send Photo or File"
+} ,
+"metal": {
+  "title": "Custom Manufacturing from Drawings",
+  "subtitle": "Any complexity metal parts: machine components, spare parts, custom structures",
+  "cta_calc": "Get Quote",
+  "cta_portfolio": "View Portfolio",
+
+  "stats": {
+    "any": "Any",
+    "complexity": "Complexity",
+    "precision": "High Precision",
+    "tolerance": "Tolerance",
+    "days": "days",
+    "production": "Production Time"
+  },
+
+  "advantages": {
+    "free_design": "Free Design & Drawings",
+    "prototype": "We Make Prototype",
+    "equipment": "Trumpf, Amada, Bystronic Equipment",
+    "warranty": "5-Year Warranty",
+    "delivery": "Free Delivery Across Uzbekistan",
+    "fast_prototype": "Prototype in 3–5 Days"
+  }
+},
+"powder": {
+  "title": "Powder Coating",
+  "cta_calc": "Get Quote",
+  "cta_portfolio": "View Portfolio",
+
+  "capabilities": {
+    "colors": "RAL Colors",
+    "antibacterial": "Antibacterial Coating",
+    "year": "years",
+    "color_retention": "Color Retention",
+    "chamber": "Chamber Size"
+  },
+
+  "advantages": {
+    "eco": "100% Eco-Friendly",
+    "corrosion": "Full Corrosion Protection",
+    "antibacterial": "Antibacterial Layer",
+    "equipment": "Italian-German Equipment",
+    "fast_drying": "Fast Curing Technology",
+    "delivery": "Free Delivery Across Uzbekistan"
+  },
+
+  "faq": {
+    "any_color": "Any color available?",
+    "any_color_answer": "Yes! 10,000+ RAL colors",
+    "large_parts": "Large parts?",
+    "large_parts_answer": "Yes, up to 6×3×2 meter chamber",
+    "delivery": "Do you deliver?",
+    "delivery_answer": "Yes, free throughout Uzbekistan",
+    "warranty": "Warranty?",
+    "warranty_answer": "15 years color retention guarantee"
+  },
+
+  "final_cta": "Exact price in 1 hour",
+  "send_dimensions": "Send Part Dimensions"
+},
+"welding": {
+  "title": "Welding Services",
+  "cta_calc": "Get Quote",
+  "cta_portfolio": "View Portfolio",
+
+  "thickness": {
+    "steel": "Carbon Steel",
+    "stainless": "Stainless Steel",
+    "aluminum": "Aluminum",
+    "methods": "Methods"
+  },
+
+  "advantages": {
+    "quality": "High-Quality Clean Welds",
+    "fronius": "Fronius (Austria) Equipment",
+    "complex": "Complex Metal Structures",
+    "fast": "Fast & Professional Execution",
+    "warranty": "36-Month Warranty",
+    "delivery": "Free Delivery Across Uzbekistan"
+  },
+
+  "faq": {
+    "argon": "Do you offer TIG (Argon) welding?",
+    "argon_answer": "Yes, professional TIG welding",
+    "thick": "Can you weld thick metal?",
+    "thick_answer": "Carbon steel up to 100 mm",
+    "delivery": "Do you deliver?",
+    "delivery_answer": "Yes, free throughout Uzbekistan"
+  },
+
+  "final_cta": "Exact price in 1 hour",
+  "send_drawing": "Send Drawing or Photo"
+},
+"bending": {
+  "title": "Sheet Metal Bending",
+  "cta_calc": "Get Quote",
+  "cta_portfolio": "View Portfolio",
+
+  "thickness": {
+    "steel": "Carbon Steel",
+    "stainless": "Stainless Steel",
+    "aluminum": "Aluminum",
+    "length": "Max Length"
+  },
+
+  "advantages": {
+    "precision": "±0.5° Precision",
+    "equipment": "Italian CNC Press Brake (6 meters)",
+    "complex": "Any Complex Shape",
+    "fast": "Fast Production",
+    "quality": "100% Quality Guarantee",
+    "delivery": "Free Delivery Across Uzbekistan"
+  },
+
+  "faq": {
+    "complex": "Can you bend complex shapes?",
+    "complex_answer": "Yes! Any radius and angle",
+    "time": "How long does it take?",
+    "time_answer": "1–7 days depending on volume",
+    "delivery": "Do you deliver?",
+    "delivery_answer": "Yes, free throughout Uzbekistan"
+  },
+
+  "final_cta": "Exact price in 1 hour",
+  "send_file": "Send DXF or Photo"
+},
+"about": {
+  "title": "About Us",
+      "mainText1": "<strong>USS Engineering</strong> — a company that applies cutting-edge metal processing technologies to deliver precise, high-quality, and efficient solutions to clients.",
+    "mainText2": "<strong class='text-indigo-400'>Our Mission:</strong> To execute every project flawlessly and guarantee trust and quality to our clients.",
+    "mainText3": "With over 7 years of experience, we have successfully completed projects of all scales — from small metal parts to large industrial structures.",
+    "features": [
+      "Quality & Guarantee",
+      "On-Time Delivery",
+      "Professional Approach to Every Order",
+      "Custom Design & Calculation"
+    ],
+    "button": "Learn More",
+    "yearsTitle": "Years of Successful Experience",
+    "yearsDesc": "Hundreds of projects, thousands of tons of metal, millions of satisfied clients",
+    "partnersTitle": "Our Trusted Partners",
+  "description": "USS Engineering is a modern metal fabrication company that delivers precise, high-quality, and efficient solutions using cutting-edge technology.",
+  "mission_title": "Our Mission",
+  "mission": "To execute every project flawlessly and guarantee trust and quality to our clients. With over 7 years of experience, we treat every order as our own.",
+  "experience_title": "7+ Years of Experience & Trusted Partnerships",
+  "experience_desc": "From small metal parts to large industrial structures — we have professional solutions for everything. Individual approach and the highest quality standards for every client.",
+  "experience_point1": "Partnerships with major enterprises",
+  "experience_point2": "Personalized approach to every customer",
+  "stats_projects": "Completed Projects",
+  "stats_quality": "Guaranteed Quality",
+  "partners_title": "Our Trusted Partners",
+  "why_title": "Why Choose Us?",
+  "why_quality": "Quality & Warranty",
+  "why_quality_desc": "Every product undergoes rigorous testing",
+  "why_delivery": "On-Time Delivery",
+  "why_delivery_desc": "Agreed deadlines are sacred",
+  "why_team": "Professional Team",
+  "why_team_desc": "Experts with over 7 years of experience",
+  "cta_title": "Ready to start your project?",
+  "cta_button": "Get in Touch"
+},
+"services": {
+  "title": "All Services",
+  "subtitle": "8 Directions • Professional Quality • 7+ Years of Experience",
+    "description": "Quality control at every stage and cutting-edge technology",
+    "more_details": "Learn More",
+    "cta_button": "Get Free Consultation",
+  "list": {
+    "laser": "Laser Cutting",
+    "bending": "Sheet Metal Bending",
+    "powder": "Powder Coating",
+    "welding": "Welding Services",
+    "structures": "Metal Structures",
+    "custom": "Custom Manufacturing",
+    "furniture": "Metal Furniture & Decor",
+    "design3d": "3D Design & Modeling"
+  },
+
+  "back_home": "Back to Home"
+}
+}

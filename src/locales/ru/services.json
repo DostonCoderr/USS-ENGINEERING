@@ -1,0 +1,52 @@
+{
+  "services": [
+    {
+      "title": "Лазерная резка металла",
+      "desc": "Высокоточная резка черного металла, алюминия и нержавейки до 25 мм",
+      "icon": "https://api.iconify.design/mdi:laser-pointer.svg?color=white&width=48",
+      "path": "/services/laser-cutting"
+    },
+    {
+      "title": "Гибка металла",
+      "desc": "Гибка листов до 6 метров на современном листогибочном прессе",
+      "icon": "https://api.iconify.design/mdi:swap-vertical-bold.svg?color=white&width=48",
+      "path": "/services/bending"
+    },
+    {
+      "title": "Сварочные работы",
+      "desc": "Аргон, TIG, MIG/MAG, плазма — все виды профессиональной сварки",
+      "icon": "https://api.iconify.design/mdi:welding.svg?color=white&width=48",
+      "path": "/services/welding"
+    },
+    {
+      "title": "Порошковая покраска",
+      "desc": "Более 1000 цветов RAL, долговечное антикоррозийное покрытие",
+      "icon": "https://api.iconify.design/mdi:spray.svg?color=white&width=48",
+      "path": "/services/powder-coating"
+    },
+    {
+      "title": "Изготовление металлоконструкций",
+      "desc": "Ангары, склады, торговые павильоны, навесы — под ключ",
+      "icon": "https://api.iconify.design/mdi:factory.svg?color=white&width=48",
+      "path": "/services/metal-structures"
+    },
+    {
+      "title": "Работа по вашим чертежам",
+      "desc": "Изготовление деталей любой сложности по DXF, DWG, PDF",
+      "icon": "https://api.iconify.design/mdi:drawing.svg?color=white&width=48",
+      "path": "/services/custom-parts"
+    },
+    {
+      "title": "Металлическая мебель и декор",
+      "desc": "Мебель в стиле LOFT, столы, стулья, декоративные панели",
+      "icon": "https://api.iconify.design/mdi:chair-rolling.svg?color=white&width=48",
+      "path": "/services/metal-furniture"
+    },
+    {
+      "title": "3D-проектирование",
+      "desc": "Проектирование в SolidWorks и AutoCAD с полной визуализацией",
+      "icon": "https://api.iconify.design/mdi:cube-outline.svg?color=white&width=48",
+      "path": "/services/3d-design"
+    }
+  ]
+}
