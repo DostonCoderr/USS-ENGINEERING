@@ -6,7 +6,6 @@ import { Link } from "react-router-dom";
 export default function ServiceHero({ 
   title = "Xizmat nomi", 
   subtitle = "Professional yondashuv va zamonaviy texnologiyalar", 
-  image = "/images/services/default.jpg",
   features = ["Yuqori aniqlik", "Tez yetkazib berish", "Sifat kafolati"]
 }) {
   return (

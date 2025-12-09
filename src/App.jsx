@@ -1,6 +1,4 @@
 import { Routes, Route } from "react-router-dom";
-import { useLenisScroll } from "./hooks/useLenisScroll";
-import { initGsapWithLenis } from "./lib/gsapSetup";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
@@ -22,18 +20,12 @@ import FloatingButton from "./components/common/FloatingButton";
 import Footer from "./components/common/Footer";
 import ServiceLayout from "./components/layout/ServiceLayout";
 import Services from "./pages/Services";
-import { useEffect } from "react";
 
 
 
 function App() {
-  useLenisScroll()
 
   
-
-  useEffect(() => {
-    initGsapWithLenis();
-  }, []);
   return (
     <>
     <Header />

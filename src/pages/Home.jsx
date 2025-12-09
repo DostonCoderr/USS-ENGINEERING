@@ -26,7 +26,7 @@ export default function Home() {
       {/* 4 – Kompaniya haqida qisqacha */}
       <AboutShort />
       {/* 5 – So‘nggi loyihalar (portfolio preview) */}
-      <PortfolioMasonry limit={8} /> {/* Faqat 6 ta ko‘rsatish */}
+      <PortfolioMasonry limit={8} /> 
       {/* 6 – Mijozlar sharhlari */}
       <ReviewsSlider />
       {/* 7 – Hamkorlar */}

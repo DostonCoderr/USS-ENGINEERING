@@ -404,5 +404,11 @@
   },
 
   "back_home": "На главную"
-}
+},
+"testimonials": {
+    "title": "Отзывы наших клиентов",
+    "description": "Более 1000 довольных клиентов. Их настоящие видео в Instagram",
+    "view_on_instagram": "Смотреть в Instagram",
+    "all_videos_cta": "Посмотреть все видео в Instagram"
+  }
 }

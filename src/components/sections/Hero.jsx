@@ -68,7 +68,16 @@ export default function HeroVideo() {
                 onClick={openModal} // YANGI: modal ochiladi
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="px-14 py-7 bg-gradient-to-r from-indigo-600 to-purple-700 rounded-full text-white text-2xl font-bold shadow-2xl hover:shadow-purple-600/60 transition-all shadow-purple-500/30"
+                className="
+                  // Kichik ekranlar uchun kichikroq o'lcham
+                  px-8 py-4 text-xl
+                  // O'rta ekranlar uchun kattaroq o'lcham
+                  sm:px-10 sm:py-5 sm:text-2xl 
+                  md:px-14 md:py-7 md:text-2xl // Katta ekranlar uchun original o'lcham
+                  
+                  bg-gradient-to-r from-indigo-600 to-purple-700 rounded-full text-white font-bold 
+                  shadow-2xl hover:shadow-purple-600/60 transition-all shadow-purple-500/30
+                "
               >
                 {t("hero.cta_button")} {/* "Bepul hisob-kitob olish" */}
               </motion.button>

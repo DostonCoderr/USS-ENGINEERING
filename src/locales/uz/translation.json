@@ -372,6 +372,9 @@
     "cta_title": "Loyihangizni boshlashga tayyormisiz?",
     "cta_button": "Bog‘lanish",
     "title": "Biz haqimizda",
+    "stat_projects_title": "Yakunlangan Loyihalar",
+    "stat_employees_title": "Kvalifikatsiyali Xodimlar",
+    "stat_production_title": "Yillik ishlab chiqarish (tonna)",
     "mainText1": "<strong>USS Engineering</strong> — metallga ishlov berish sohasida zamonaviy texnologiyalarni qo‘llab, mijozlarga aniq, sifatli va samarali yechimlar taqdim etuvchi kompaniya.",
     "mainText2": "<strong class='text-indigo-400'>Missiyamiz:</strong> Har bir loyihani mukammal bajarish, mijozga ishonch va sifatni kafolatlash.",
     "mainText3": "7 yildan ortiq tajriba davomida kichik metall detalidan tortib yirik sanoat konstruktsiyalarigacha bo‘lgan barcha turdagi loyihalarni muvaffaqiyatli amalga oshirdik.",
@@ -404,5 +407,11 @@
     },
 
     "back_home": "Bosh sahifaga"
+  },
+  "testimonials": {
+    "title": "Mijozlarimiz fikri",
+    "description": "1000+ qoniqarli mijozlar. Ularning haqiqiy videolari Instagramda",
+    "view_on_instagram": "Instagramda ko‘rish",
+    "all_videos_cta": "Barcha videolarni Instagramda ko‘rish"
   }
 }

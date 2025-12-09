@@ -386,5 +386,11 @@
   },
 
   "back_home": "Back to Home"
-}
+},
+"testimonials": {
+    "title": "Our Clients' Testimonials",
+    "description": "1000+ satisfied clients. Their authentic videos on Instagram",
+    "view_on_instagram": "View on Instagram",
+    "all_videos_cta": "View All Videos on Instagram"
+  }
 }

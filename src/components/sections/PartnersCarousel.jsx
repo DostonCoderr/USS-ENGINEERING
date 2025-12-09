@@ -1,11 +1,50 @@
-// src/components/sections/PartnersCarousel.jsx → RASMLAR (YOKI MATN) BIR XIL RAZMERDA BO'LISHI UCHUN TUZATILDI!
-
+// src/components/sections/PartnersCarousel.jsx - TO'G'RILANGAN
+import { useState } from "react"; // ⬅️ useState ni qo'shamiz
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import { useTranslation } from "react-i18next";
 import "swiper/css";
 
 import partners from "../../data/partners";
+
+// Yangi PartnerItem komponenti (rasm yuklanmasa matnni ko'rsatadi)
+function PartnerItem({ partner }) {
+  // Rasm yuklanishi statusini kuzatish
+  const [imageError, setImageError] = useState(false);
+
+  // Balandlik va uslublar
+  const containerClasses = "flex flex-col items-center justify-center h-24 md:h-32 px-2";
+  const hoverClasses = "transition-all duration-300 hover:scale-105";
+
+  if (imageError || !partner.img) {
+    // Rasm xatosi bo'lsa yoki img yo'li bo'lmasa, matnni ko'rsatish
+    return (
+      <div className={`${containerClasses}`} style={{ width: 'auto' }}>
+        <span className="text-white/70 font-medium text-sm md:text-lg text-center block w-full h-full flex items-center justify-center whitespace-nowrap">
+          {partner.name}
+        </span>
+      </div>
+    );
+  }
+
+  // Rasm mavjud bo'lsa, uni ko'rsatish
+  return (
+    <div 
+      className={`${containerClasses} ${hoverClasses}`}
+      style={{ width: 'auto' }} 
+    >
+      <img
+        src={partner.img}
+        alt={partner.name}
+        className="w-auto h-full object-contain filter brightness-0 invert opacity-60 hover:opacity-100 transition-all duration-300" 
+        loading="lazy"
+        // 🛑 DOM manipulyatsiyasi o'rniga state ni yangilash
+        onError={() => setImageError(true)}
+      />
+    </div>
+  );
+}
+
 
 export default function PartnersCarousel() {
   const { t } = useTranslation();
@@ -27,8 +66,8 @@ export default function PartnersCarousel() {
           slidesPerView={3}
           // Optimal responsive breakpoints
           breakpoints={{
-            640:  { slidesPerView: 4 },
-            768:  { slidesPerView: 5 }, 
+            640: 	{ slidesPerView: 4 },
+            768: 	{ slidesPerView: 5 }, 
             1024: { slidesPerView: 6 }, 
             1280: { slidesPerView: 7 },
           }}
@@ -40,40 +79,14 @@ export default function PartnersCarousel() {
         >
           {[...partners, ...partners].map((partner, index) => (
             <SwiperSlide key={index}>
-              {/* 👇 KONTEYNERGA YUQORROQ BALANDLIK BERILDI */}
-              <div 
-                className="flex flex-col items-center justify-center h-24 md:h-32 px-2 transition-all duration-300 hover:scale-105"
-                style={{ width: 'auto' }} 
-              >
-                <img
-                  src={partner.img}
-                  alt={partner.name}
-                  // 👇 MUHIM O'ZGARTIRISH: RASM TO'LIQ BALANDLIKNI (h-full) EGALLASHI VA PROPORTSIYALARINI SAQLASHI (object-contain)
-                  className="w-auto h-full object-contain filter brightness-0 invert opacity-60 hover:opacity-100 transition-all duration-300" 
-                  loading="lazy"
-                  onError={(e) => {
-                    e.target.onerror = null;
-                    e.target.src = "";
-                    
-                    // Rasm yuklanmasa, matn bir qatorda markazda turadi. Balandlikni to'liq egallaydi (h-full)
-                    e.target.outerHTML = `<span class="text-white/70 font-medium text-sm md:text-lg text-center block w-full h-full flex items-center justify-center whitespace-nowrap">${partner.name}</span>`;
-                  }}
-                />
-                
-                {/* Rasm mavjud bo'lmaganda yozuvni render qilish */}
-                {!partner.img && ( 
-                  // 👇 MATN HAM KONTEYNER BALANDLIGINI EGALLASHI VA MARKAZDA TURISHI UCHUN flex qo'shildi
-                  <span className="text-white/70 font-medium text-sm md:text-lg text-center block w-full h-full flex items-center justify-center whitespace-nowrap">
-                    {partner.name}
-                  </span>
-                )}
-              </div>
+              {/* Yangi komponent chaqirildi */}
+              <PartnerItem partner={partner} /> 
             </SwiperSlide>
           ))}
         </Swiper>
       </div>
 
-      <style jsx>{`
+      <style >{`
         .partners-swiper .swiper-wrapper {
           transition-timing-function: linear !important;
         }

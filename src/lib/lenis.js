@@ -1,4 +1,4 @@
-// src/lib/lenis.js
+// src/lib/lenis.js - TO'G'RILANGAN
 import Lenis from "@studio-freight/lenis";
 
 export const initLenis = () => {
@@ -10,11 +10,8 @@ export const initLenis = () => {
     normalizeWheel: true,
   });
 
-  function raf(time) {
-    lenis.raf(time);
-    requestAnimationFrame(raf);
-  }
-  requestAnimationFrame(raf);
+  // 🛑 DIQQAT: Lenis'ning o'z RAF loopi o'chirildi!
+  // Bu loopni endi 'gsapSetup.js' boshqaradi.
 
   return lenis;
 };

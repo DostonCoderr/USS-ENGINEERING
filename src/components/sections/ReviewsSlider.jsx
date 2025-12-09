@@ -1,4 +1,4 @@
-// src/components/sections/ReviewsSlider.jsx → PREMIUM + 3 TILDA + XATOSIZ!
+// src/components/sections/ReviewsSlider.jsx - TO'G'RILANGAN
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";
@@ -92,8 +92,8 @@ export default function ReviewsSlider() {
         </Swiper>
       </div>
 
-      {/* Bir xil balandlik uchun */}
-      <style jsx>{`
+      {/* Bir xil balandlik uchun (jsx prop'i olib tashlandi) */}
+      <style>{`
         .swiper-slide {
           height: auto !important;
         }

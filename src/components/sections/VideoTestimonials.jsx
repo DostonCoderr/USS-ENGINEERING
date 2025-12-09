@@ -1,15 +1,16 @@
-// src/components/sections/VideoTestimonials.jsx → INSTAGRAM REELS + PREMIUM
+// src/components/sections/VideoTestimonials.jsx - TRANSLATED
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";
 import { Instagram } from "lucide-react";
 import "swiper/css";
 import "swiper/css/pagination";
+import { useTranslation } from "react-i18next"; // i18n uchun qo'shildi
 
 const reels = [
   {
-    id: "DIgid6HCcoJ",  // ← MANA SHU YERGA!
-    url: "https://www.instagram.com/reel/DIgid6HCcoJ/"
+    id: "DIgid6HCcoJ",
+    url: "https://www.instagram.com/reel/DIgid6HCcoJ/",
   },
   {
     id: "DOv2UGVjHlw",
@@ -26,9 +27,11 @@ const reels = [
 ];
 
 export default function VideoTestimonials() {
+  const { t } = useTranslation(); // Hook ishlatildi
+
   return (
     <section className="relative py-24 lg:py-32 overflow-hidden">
-      {/* Kosmik fon */}
+      {/* Space background */}
       <div className="absolute inset-0 -z-10">
         <div className="absolute inset-0 bg-gradient-to-b from-indigo-950 via-purple-950 to-black opacity-90" />
         {[...Array(60)].map((_, i) => (
@@ -45,15 +48,15 @@ export default function VideoTestimonials() {
       </div>
 
       <div className="max-w-7xl mx-auto px-6">
-        {/* Sarlavha */}
+        {/* Title */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-6xl font-black mb-6">
             <span className="bg-gradient-to-r from-pink-400 via-purple-400 to-indigo-400 bg-clip-text text-transparent">
-              Mijozlarimiz fikri
+              {t("testimonials.title")} {/* Tarjima */}
             </span>
           </h2>
           <p className="text-xl text-white/70 max-w-3xl mx-auto">
-            1000+ qoniqarli mijozlar. Ularning haqiqiy videolari Instagramda
+            {t("testimonials.description")} {/* Tarjima */}
           </p>
         </div>
 
@@ -81,13 +84,15 @@ export default function VideoTestimonials() {
                     className="w-full h-full"
                     frameBorder="0"
                     scrolling="no"
-                    allowTransparency="true"
-                    allow="encrypted-media"
+                    allowtransparency="true"
+                    // TAYINLANGAN O'ZGARTIRISH: `unload` ruxsatini olib tashladim (u ko'rinmasa ham, ta'sir qilishi mumkin)
+                    // Standart va xavfsiz ruxsatlarni qoldirdim:
+                    allow="encrypted-media; autoplay; clipboard-write; picture-in-picture"
                     title={`Instagram Reel ${reel.id}`}
                   />
                 </div>
 
-                {/* Hover effekt + Instagram havolasi */}
+                {/* Hover effect + Instagram link */}
                 <a
                   href={reel.url}
                   target="_blank"
@@ -96,7 +101,10 @@ export default function VideoTestimonials() {
                 >
                   <div className="flex items-center gap-3 bg-white/20 backdrop-blur-lg px-6 py-3 rounded-full border border-white/30">
                     <Instagram className="w-6 h-6 text-pink-400" />
-                    <span className="text-white font-bold">Instagramda ko‘rish</span>
+                    <span className="text-white font-bold">
+                      {t("testimonials.view_on_instagram")}
+                    </span>{" "}
+                    {/* Tarjima */}
                   </div>
                 </a>
               </div>
@@ -104,7 +112,7 @@ export default function VideoTestimonials() {
           ))}
         </Swiper>
 
-        {/* Pastdagi CTA */}
+        {/* Bottom CTA */}
         <div className="text-center mt-12">
           <a
             href="https://instagram.com/uss_engineering"
@@ -113,7 +121,7 @@ export default function VideoTestimonials() {
             className="inline-flex items-center gap-4 px-10 py-5 bg-gradient-to-r from-pink-600 to-purple-600 rounded-full text-white text-xl font-bold shadow-2xl hover:shadow-pink-600/50 transition-all hover:scale-105"
           >
             <Instagram className="w-8 h-8" />
-            Barcha videolarni Instagramda ko‘rish
+            {t("testimonials.all_videos_cta")} {/* Tarjima */}
           </a>
         </div>
       </div>

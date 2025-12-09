@@ -142,7 +142,7 @@ export default function Header() {
                       initial={{ opacity: 0, y: -10 }}
                       animate={{ opacity: 1, y: 0 }}
                       exit={{ opacity: 0, y: -10 }}
-                      className="absolute top-full mt-2 left-1/2 -translate-x-1/2 w-32 bg-white/10 backdrop-blur-3xl border border-white/20 rounded-2xl shadow-2xl overflow-hidden"
+                      className="absolute top-full mt-2 **right-0** w-32 bg-white/10 backdrop-blur-3xl border border-white/20 rounded-2xl shadow-2xl overflow-hidden"
                     >
                       {languages.map((language) => (
                         <button

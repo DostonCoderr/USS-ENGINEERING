@@ -19,7 +19,7 @@ import "./index.css";
 // GSAP + Lenis ni ishga tushiramiz
 initGsapWithLenis();
 
-ReactDOM.createRoot(document.getElementById("root")).render(
+ReactDOM.createRoot(document.getElementById("root")).render(  
   <React.StrictMode>
     <BrowserRouter>
       <ScrollToTop />  {/* ← Har sahifa o‘zgarganda tepaga chiqadi */}
