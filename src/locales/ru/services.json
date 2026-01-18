@@ -15,7 +15,6 @@
     {
       "title": "Сварочные работы",
       "desc": "Аргон, TIG, MIG/MAG, плазма — все виды профессиональной сварки",
-      "icon": "https://api.iconify.design/mdi:welding.svg?color=white&width=48",
       "path": "/services/welding"
     },
     {

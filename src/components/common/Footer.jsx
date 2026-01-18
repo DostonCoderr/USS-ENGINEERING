@@ -1,5 +1,3 @@
-// src/components/common/Footer.jsx → 100% 3 TILDA + XATOSIZ + ZO‘R!
-
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 

@@ -21,6 +21,25 @@
   "partners": {
     "title": "Ishonchli hamkorlarimiz"
   },
+  "tech": {
+  "title": "Texnik imkoniyatlar",
+  "subtitle": "Zamonaviy uskunalar va katta ishlab chiqarish quvvati",
+  "footer_text": "Har qanday murakkablikdagi loyihalarni qabul qilamiz. Agar sizda chizma bo‘lsa – 24 soat ichida hisob-kitob tayyor!",
+  "data": [
+    { "param": "Lazer kesim (TRUMPF)", "value": "6000 × 2500 mm gacha" },
+    { "param": "Maksimal qalinlik (Qora po‘lat)", "value": "25 mm" },
+    { "param": "Maksimal qalinlik (Nerjaveyka)", "value": "20 mm" },
+    { "param": "Maksimal qalinlik (Alyuminiy)", "value": "15 mm" },
+    { "param": "Listogib kuchi", "value": "320 tonna" },
+    { "param": "Bukish uzunligi", "value": "4000 mm gacha" },
+    { "param": "Poroshkali bo‘yash kamerasi", "value": "7000×2500×3000 mm" },
+    { "param": "Payvandlash turlari", "value": "MIG/MAG, TIG, Plazma" },
+    { "param": "Yillik ishlab chiqarish hajmi", "value": "15 000+ tonna" },
+    { "param": "Loyiha muddati", "value": "5 kundan 45 kungacha" },
+    { "param": "Yetkazib berish", "value": "O‘zbekiston bo‘ylab" },
+    { "param": "Kafolat", "value": "36 oy" }
+  ]
+},
 
   "calculator": {
     "title": "Tezkor narx hisoblagich",
@@ -73,15 +92,20 @@
     "address_label": "Manzil",
     "hours_label": "Ish vaqti",
 
-    "form": {
-      "name_label": "Ismingiz",
-      "name_placeholder": "Azizbek Karimov",
-      "phone_label": "Telefon",
-      "phone_placeholder": "+998 95 168 75 55",
-      "message_label": "Xabar (ixtiyoriy)",
-      "message_placeholder": "Qanday yordam bera olamiz?",
-      "submit_button": "Yuborish – 15 daqiqada javob beramiz"
-    },
+   "form": {
+    "name_label": "Ismingiz",
+    "name_placeholder": "Azizbek Karimov",
+    "phone_label": "Telefon",
+    "message_label": "Xabar (ixtiyoriy)",
+    "message_placeholder": "Qanday yordam bera olamiz?",
+    "file_label": "Chizma yoki rasm biriktirish (ixtiyoriy)",
+    "submit_button": "Yuborish – 15 daqiqada javob beramiz",
+    "sending": "Yuborilmoqda...",
+    "modal_subtitle": "Tezkor hisob-kitob uchun ma'lumot qoldiring",
+    "success_title": "Rahmat!",
+    "success_msg": "Sizning so'rovingiz qabul qilindi. Mutaxassislarimiz 15 daqiqa ichida aloqaga chiqishadi.",
+    "error_msg": "Xatolik yuz berdi. Iltimos qayta urining yoki telefon orqali bog'laning."
+  },
 
     "info": {
       "phone_title": "Telefon",
@@ -92,7 +116,7 @@
 
       "address_title": "Manzil",
       "address_short": "Toshkent, Sergeli",
-      "address_full": "Toshkent sh., Olmazor tumani, G‘ani A’zamov mahallasi (Real manzil)",
+     "address_full": "Toshkent sh., Olmazor tumani, G‘ani A’zamov mahallasi",
       "address": "Toshkent sh., Olmazor tumani, G‘ani A’zamov mahallasi (Real manzil)",
 
       "hours_title": "Ish vaqti",

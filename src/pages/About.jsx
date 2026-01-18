@@ -1,14 +1,12 @@
-// src/pages/About.jsx → 100% 3 TILDA + PARTNERS.JS + ZO‘R!
-
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { Factory, ShieldCheck, Clock, Users, Award, Target } from "lucide-react";
-import partnersData from "../data/partners"; // HAMKORLAR SHU YERDAN!
+import partnersData from "../data/partners"; 
 
-const displayedPartners = partnersData.slice(0, 8); // Faqat 8 tasi
+const displayedPartners = partnersData.slice(0, 8); 
 
 export default function About() {
   const { t } = useTranslation();
@@ -17,7 +15,7 @@ export default function About() {
 
   return (
     <>
-      {/* HERO */}
+   
       <section ref={ref} className="py-24 md:py-32 relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-indigo-950 via-purple-950 to-black -z-10" />
         
@@ -40,7 +38,7 @@ export default function About() {
         </div>
       </section>
 
-      {/* MISSIYA */}
+   
       <section className="py-16 bg-black/40">
         <div className="max-w-4xl mx-auto px-6 text-center">
           <div className="bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl p-10">
@@ -53,7 +51,7 @@ export default function About() {
         </div>
       </section>
 
-      {/* TAJRIBA VA MIJOZLAR */}
+
       <section className="py-20">
         <div className="max-w-6xl mx-auto px-6">
           <div className="grid md:grid-cols-2 gap-10 items-center">
@@ -92,7 +90,7 @@ export default function About() {
         </div>
       </section>
 
-      {/* HAMKORLAR – partners.js dan 8 tasi */}
+  
       <section className="py-16 bg-black/40">
         <div className="max-w-5xl mx-auto px-6">
           <h2 className="text-3xl font-black text-white text-center mb-10">
@@ -112,7 +110,6 @@ export default function About() {
         </div>
       </section>
 
-      {/* NEGA BIZNI TANLASHADI? */}
       <section className="py-20">
         <div className="max-w-6xl mx-auto px-6">
           <h2 className="text-3xl md:text-4xl font-black text-white text-center mb-12">
@@ -138,7 +135,7 @@ export default function About() {
         </div>
       </section>
 
-      {/* CTA */}
+
       <section className="py-16 bg-gradient-to-r from-indigo-900/70 to-purple-900/70">
         <div className="text-center">
           <h2 className="text-3xl md:text-5xl font-black text-white mb-6">

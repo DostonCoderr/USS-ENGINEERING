@@ -1,4 +1,3 @@
-// src/lib/gsapSetup.js
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { initLenis } from "./lenis";
@@ -12,7 +11,7 @@ const initGsapWithLenis = () => {
 
   lenis = initLenis();
 
-  // Lenis + ScrollTrigger sinxronizatsiyasi
+
   lenis.on("scroll", ScrollTrigger.update);
 
   gsap.ticker.add((time) => {

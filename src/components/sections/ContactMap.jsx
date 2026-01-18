@@ -1,9 +1,7 @@
-// ContactMap.jsx → FAYL + XABAR BILAN BIRGA KELADI!
-
 import { motion, useInView } from "framer-motion";
 import { useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
-import { sendToTelegram } from "../../lib/telegram"; // to‘g‘ridan-to‘g‘ri import
+import { sendToTelegram } from "../../lib/telegram";
 
 export default function ContactMap() {
   const { t } = useTranslation();
@@ -135,16 +133,16 @@ export default function ContactMap() {
 
               {/* FILE — IXTIYORIY */}
               <div>
-                <label className="block text-white/70 text-sm mb-2">
-                  Chizma yoki rasm biriktirish (ixtiyoriy)
-                </label>
-                <input
-                  type="file"
-                  accept="image/*,.pdf,.dwg,.dxf,.zip"
-                  onChange={handleFileChange}
-                  className="w-full text-white/70 file:mr-4 file:py-3 file:px-6 file:rounded-lg file:border-0 file:bg-white/10 file:text-white hover:file:bg-white/20 cursor-pointer"
-                />
-              </div>
+    <label className="block text-white/70 text-sm mb-2">
+      {t("contact.form.file_label")}
+    </label>
+    <input
+      type="file"
+      accept="image/*,.pdf,.dwg,.dxf,.zip"
+      onChange={handleFileChange}
+      className="w-full text-white/70 file:mr-4 file:py-3 file:px-6 file:rounded-lg file:border-0 file:bg-white/10 file:text-white hover:file:bg-white/20 cursor-pointer"
+    />
+  </div>
 
               <motion.button
                 whileHover={{ scale: 1.03 }}
@@ -162,7 +160,7 @@ export default function ContactMap() {
 
               {success && (
                 <p className="text-green-400 text-center font-bold text-lg bg-green-900/30 py-4 rounded-xl">
-                  Rahmat! Tez orada siz bilan bog‘lanamiz
+                 {t("contact.form.success_msg")}
                 </p>
               )}
               {error && (
@@ -191,12 +189,12 @@ export default function ContactMap() {
                   </svg>
                 </div>
                 <div>
-                  <p className="text-sm text-white/60">Telefon</p>
+                  <p className="text-sm text-white/60">{t("contact.phone_label")}</p>
                   <a
-                    href="tel:+998951687555"
+                    href={`tel:${t("contact.info.phone")}`}
                     className="text-2xl font-bold hover:text-indigo-400 transition"
                   >
-                    +998 95 168 75 55
+                    {t("contact.info.phone")}
                   </a>
                 </div>
               </div>
@@ -224,11 +222,9 @@ export default function ContactMap() {
                   </svg>
                 </div>
                 <div>
-                  <p className="text-sm text-white/60">Manzil</p>
+                  <p className="text-sm text-white/60">{t("contact.address_label")}</p>
                   <p className="text-lg font-medium leading-relaxed">
-                    Toshkent sh., Olmazor tumani,
-                    <br />
-                    Gani A’zamov mahallasi
+                  {t("contact.info.address_full")}
                   </p>
                 </div>
               </div>

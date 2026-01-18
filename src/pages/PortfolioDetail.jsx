@@ -60,7 +60,7 @@ const projects = [
     desc: "Yengil po‘lat konstruktsiyalar bilan qurilgan katta angar...",
     images: ["2", "1", "4"],
   },
-  // qolganlari...
+
 ];
 
 export default function PortfolioDetail() {
@@ -111,7 +111,7 @@ export default function PortfolioDetail() {
               {project.desc}
             </p>
 
-            {/* Rasmlar */}
+     
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
               {[1, 2, 3, 4, 5, 6].map((i) => (
                 <div
@@ -127,7 +127,7 @@ export default function PortfolioDetail() {
               ))}
             </div>
 
-            {/* Tugma */}
+        
             <div className="text-center">
               <button
                 onClick={() => setModalOpen(true)}

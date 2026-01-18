@@ -25,7 +25,7 @@ export default function Services() {
 
   return (
     <>
-      {/* HERO */}
+
       <section className="py-25 md:py-28 relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-indigo-950 via-purple-950 to-black -z-10" />
         <div className="max-w-5xl mt-[15px] mx-auto px-6 text-center">
@@ -42,7 +42,7 @@ export default function Services() {
         </div>
       </section>
 
-      {/* XIZMATLAR – GORIZONTAL + RESPONSIVE */}
+    
       <section className="py-16 pb-32">
         <div className="max-w-5xl mt-[15px] mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-6">
           {allServices.map((service, i) => (
@@ -52,24 +52,23 @@ export default function Services() {
                 whileTap={{ scale: 0.99 }}
                 className="group bg-white/5 backdrop-blur-xl border border-white/10 rounded-2xl p-6 hover:bg-white/10 hover:border-white/20 transition-all duration-300 cursor-pointer flex items-center gap-5"
               >
-                {/* Ikonka */}
+               
                 <div className="text-5xl text-indigo-400 group-hover:text-purple-400 transition flex-shrink-0">
                   {service.icon}
                 </div>
 
-                {/* Sarlavha */}
+           
                 <h3 className="text-xl md:text-2xl font-bold text-white group-hover:text-indigo-300 transition">
                   {service.title}
                 </h3>
 
-                {/* O‘qcha (hoverda paydo bo‘ladi) */}
+ 
                 <MdArrowForward className="ml-auto text-2xl text-white/50 group-hover:text-indigo-400 group-hover:translate-x-2 transition-all opacity-0 group-hover:opacity-100" />
               </motion.div>
             </Link>
           ))}
         </div>
 
-        {/* ORQAGA */}
         <div className="text-center mt-16">
           <Link to="/">
             <motion.button

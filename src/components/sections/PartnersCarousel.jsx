@@ -1,5 +1,5 @@
-// src/components/sections/PartnersCarousel.jsx - TO'G'RILANGAN
-import { useState } from "react"; // ⬅️ useState ni qo'shamiz
+
+import { useState } from "react"; 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import { useTranslation } from "react-i18next";
@@ -7,17 +7,17 @@ import "swiper/css";
 
 import partners from "../../data/partners";
 
-// Yangi PartnerItem komponenti (rasm yuklanmasa matnni ko'rsatadi)
+
 function PartnerItem({ partner }) {
-  // Rasm yuklanishi statusini kuzatish
+
   const [imageError, setImageError] = useState(false);
 
-  // Balandlik va uslublar
+
   const containerClasses = "flex flex-col items-center justify-center h-24 md:h-32 px-2";
   const hoverClasses = "transition-all duration-300 hover:scale-105";
 
   if (imageError || !partner.img) {
-    // Rasm xatosi bo'lsa yoki img yo'li bo'lmasa, matnni ko'rsatish
+
     return (
       <div className={`${containerClasses}`} style={{ width: 'auto' }}>
         <span className="text-white/70 font-medium text-sm md:text-lg text-center block w-full h-full flex items-center justify-center whitespace-nowrap">
@@ -27,7 +27,7 @@ function PartnerItem({ partner }) {
     );
   }
 
-  // Rasm mavjud bo'lsa, uni ko'rsatish
+
   return (
     <div 
       className={`${containerClasses} ${hoverClasses}`}
@@ -38,7 +38,6 @@ function PartnerItem({ partner }) {
         alt={partner.name}
         className="w-auto h-full object-contain filter brightness-0 invert opacity-60 hover:opacity-100 transition-all duration-300" 
         loading="lazy"
-        // 🛑 DOM manipulyatsiyasi o'rniga state ni yangilash
         onError={() => setImageError(true)}
       />
     </div>
@@ -64,7 +63,7 @@ export default function PartnersCarousel() {
           modules={[Autoplay]}
           spaceBetween={30}
           slidesPerView={3}
-          // Optimal responsive breakpoints
+
           breakpoints={{
             640: 	{ slidesPerView: 4 },
             768: 	{ slidesPerView: 5 }, 
@@ -79,7 +78,7 @@ export default function PartnersCarousel() {
         >
           {[...partners, ...partners].map((partner, index) => (
             <SwiperSlide key={index}>
-              {/* Yangi komponent chaqirildi */}
+      
               <PartnerItem partner={partner} /> 
             </SwiperSlide>
           ))}

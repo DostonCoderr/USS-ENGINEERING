@@ -1,5 +1,3 @@
-// src/components/sections/ServiceHero.jsx → HAR BIR XIZMAT UCHUN HERO
-
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 
@@ -10,7 +8,7 @@ export default function ServiceHero({
 }) {
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden">
-      {/* Kosmik fon + yulduzlar */}
+
       <div className="absolute inset-0 -z-10">
         <div className="absolute inset-0 bg-gradient-to-br from-indigo-950 via-purple-950 to-black" />
         {[...Array(100)].map((_, i) => (
@@ -120,7 +118,7 @@ export default function ServiceHero({
         </motion.div>
       </div>
 
-      {/* Pastga strelka */}
+
       <motion.div
         animate={{ y: [0, 15, 0] }}
         transition={{ repeat: Infinity, duration: 2 }}

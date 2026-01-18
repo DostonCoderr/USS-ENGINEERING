@@ -1,12 +1,10 @@
-// src/layout/ServiceLayout.jsx → BARCHA XIZMATLAR UCHUN UMUMIY
-
 import { Outlet } from "react-router-dom";
 import { motion } from "framer-motion";
 
 export default function ServiceLayout() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-indigo-950 via-purple-950 to-black">
-      {/* Hero qismi – har bir xizmat uchun umumiy */}
+
       <section className="relative py-24 lg:py-32 overflow-hidden">
         <div className="absolute inset-0 -z-10">
           <div className="absolute inset-0 bg-gradient-to-b from-indigo-900/50 to-transparent" />
@@ -31,7 +29,6 @@ export default function ServiceLayout() {
         </div>
       </section>
 
-      {/* Har bir xizmatning o‘z sahifasi shu yerga keladi */}
       <Outlet />
     </div>
   );

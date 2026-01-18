@@ -15,7 +15,6 @@
     {
       "title": "Welding Services",
       "desc": "TIG, MIG/MAG, Argon, Plasma — all types of professional welding",
-      "icon": "https://api.iconify.design/mdi:welding.svg?color=white&width=48",
       "path": "/services/welding"
     },
     {

@@ -6,6 +6,7 @@ import Portfolio from "./pages/Portfolio";
 import PortfolioDetail from "./pages/PortfolioDetail";
 import FAQ from "./pages/FAQ";
 import ScrollToTopButton from "./components/common/ScrollToTopButton";
+import SplashScreen from "./components/common/SplashScreen";
 
 // Services
 import LaserCutting from "./pages/Services/LaserCutting";
@@ -20,14 +21,21 @@ import FloatingButton from "./components/common/FloatingButton";
 import Footer from "./components/common/Footer";
 import ServiceLayout from "./components/layout/ServiceLayout";
 import Services from "./pages/Services";
+import { useState } from "react";
 
 
 
 function App() {
-
+const [loading, setLoading] = useState(true);
   
   return (
     <>
+
+    {loading ? (
+        <SplashScreen finishLoading={() => setLoading(false)} />
+      ) 
+        
+      : null}
     <Header />
     
     <Routes>

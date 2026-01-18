@@ -1,5 +1,3 @@
-// src/pages/Services/CustomParts.jsx → 3 TILDA + PROFESSIONAL TARJIMA
-
 import { motion } from "framer-motion";
 import { useState } from "react";
 import { Link } from "react-router-dom";

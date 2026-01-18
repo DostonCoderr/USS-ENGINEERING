@@ -1,4 +1,3 @@
-// src/pages/Services/LaserCutting.jsx
 import ServiceHero from "../../components/sections/ServiceHero";
 import ServicesGrid from "../../components/sections/ServicesGrid";
 
@@ -17,7 +16,7 @@ export default function LaserCutting() {
         ]}
       />
 
-      {/* Keyin ServicesGrid yoki boshqa bo‘limlar */}
+     
       <ServicesGrid />
     </>
   );

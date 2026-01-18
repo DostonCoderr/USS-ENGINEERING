@@ -35,8 +35,8 @@ export default function Reviews() {
                   <Star key={i} className="w-8 h-8 fill-yellow-400 text-yellow-400" />
                 ))}
               </div>
-              <p className="text-xl text-white/90 mb-6 leading-relaxed">"{r.text}"</p>
-              <p className="text-lg font-bold text-white">— {r.name}</p>
+              <p className="text-xl text-white/90 mb-6 leading-relaxed">{r.text}</p>
+              <p className="text-lg font-bold text-white"> — {r.name}</p>
             </motion.div>
           ))}
         </div>

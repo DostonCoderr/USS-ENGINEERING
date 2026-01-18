@@ -20,6 +20,27 @@
 
 
 
+  "tech": {
+  "title": "Technical Capabilities",
+  "subtitle": "Modern equipment and large production capacity",
+  "footer_text": "We accept projects of any complexity. If you have a drawing – the estimate is ready within 24 hours!",
+  "data": [
+    { "param": "Laser Cutting (TRUMPF)", "value": "up to 6000 × 2500 mm" },
+    { "param": "Max Thickness (Mild Steel)", "value": "25 mm" },
+    { "param": "Max Thickness (Stainless Steel)", "value": "20 mm" },
+    { "param": "Max Thickness (Aluminum)", "value": "15 mm" },
+    { "param": "Press Brake Force", "value": "320 tons" },
+    { "param": "Bending Length", "value": "up to 4000 mm" },
+    { "param": "Powder Coating Booth", "value": "7000×2500×3000 mm" },
+    { "param": "Welding Types", "value": "MIG/MAG, TIG, Plasma" },
+    { "param": "Annual Production Capacity", "value": "15,000+ tons" },
+    { "param": "Project Duration", "value": "5 to 45 days" },
+    { "param": "Delivery", "value": "Throughout Uzbekistan" },
+    { "param": "Warranty", "value": "36 months" }
+  ]
+},
+
+
   "partners": {
     "title": "Our Trusted Partners"
   },
@@ -68,22 +89,46 @@
   },
   "contact": {
     "title": "Contact Us",
-    "form": {
-      "name_label": "Your Name",
-      "name_placeholder": "Azizbek Karimov",
-      "phone_label": "Phone",
-      "phone_placeholder": "+998 95 168 75 55",
-      "message_label": "Message (optional)",
-      "message_placeholder": "How can we help you?",
-      "submit_button": "Send – We reply in 15 minutes"
-    },
+    "subtitle": "Our specialists are ready to answer any of your questions and provide professional advice.",
+
+    "phone_label": "Phone Number",
+    "address_label": "Address",
+    "hours_label": "Working Hours",
+
+   "form": {
+    "name_label": "Your Name",
+    "name_placeholder": "John Doe",
+    "phone_label": "Phone",
+    "message_label": "Message (optional)",
+    "message_placeholder": "How can we help you?",
+    "file_label": "Attach drawing or photo (optional)",
+    "submit_button": "Send – We reply in 15 minutes",
+    "sending": "Sending...",
+    "modal_subtitle": "Leave your details for a quick estimate",
+    "success_title": "Thank you!",
+    "success_msg": "Your request has been received. Our specialists will contact you within 15 minutes.",
+    "error_msg": "An error occurred. Please try again or contact us by phone."
+  },
+
     "info": {
       "phone_title": "Phone",
       "phone": "+998 95 168 75 55",
+
+      "email_title": "E-Mail",
+      "email": "info@metall.uz",
+
       "address_title": "Address",
-      "address": "Tashkent, Almazar district, mahalla gathering of citizens Gani Azamov"
-    }
-  },
+      "address_short": "Tashkent, Sergeli",
+     "address_full": "Tashkent city, Almazar district, Gani Azamov mahalla",
+      "address": "Tashkent, Almazar district, Gani Azamov mahalla (Real address)",
+
+      "hours_title": "Working Hours",
+      "hours": "09:00 – 21:00",
+      "hours_text": "Daily, no weekends"
+    },
+
+    "cta_button": "Call Now"
+},
   "footer": {
     "description": "7+ years of experience. Modern equipment. Professional team.\n\nThe most reliable metal fabrication partner in Uzbekistan.",
     "services_title": "Services",

@@ -1,5 +1,3 @@
-// src/components/sections/ReviewsSlider.jsx - TO'G'RILANGAN
-
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";
 import { motion, useInView } from "framer-motion";
@@ -17,7 +15,7 @@ export default function ReviewsSlider() {
 
   return (
     <section ref={ref} className="relative py-20 lg:py-28 overflow-hidden">
-      {/* Kosmik fon */}
+
       <div className="absolute inset-0 -z-10">
         <div className="absolute inset-0 bg-gradient-to-b from-indigo-950 via-purple-950 to-black opacity-90" />
         {[...Array(60)].map((_, i) => (
@@ -92,7 +90,7 @@ export default function ReviewsSlider() {
         </Swiper>
       </div>
 
-      {/* Bir xil balandlik uchun (jsx prop'i olib tashlandi) */}
+
       <style>{`
         .swiper-slide {
           height: auto !important;

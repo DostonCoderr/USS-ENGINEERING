@@ -3,14 +3,14 @@
 import { motion, useInView } from "framer-motion";
 import { useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
-import OrderModal from "../common/PopupForm"; // to‘g‘ri yo‘l
+import OrderModal from "../common/PopupForm"; 
 
 export default function CTASection() {
   const { t } = useTranslation();
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-150px" });
   
-  // MODAL HOLATI — YANGI!
+
   const [modalOpen, setModalOpen] = useState(false);
 
   const openModal = () => {
@@ -20,7 +20,7 @@ export default function CTASection() {
   return (
     <>
       <section ref={ref} className="relative py-24 lg:py-32 overflow-hidden">
-        {/* Kosmik fon + yulduzcha animatsiyasi */}
+      
         <div className="absolute inset-0 -z-10">
           <div className="absolute inset-0 bg-gradient-to-b from-indigo-950/80 via-purple-950/40 to-transparent" />
           {[...Array(80)].map((_, i) => (
@@ -54,7 +54,7 @@ export default function CTASection() {
               {t("cta.title")}
             </h2>
 
-            {/* 15 daqiqada javob */}
+ 
             <motion.p
               initial={{ scale: 0.95, opacity: 0 }}
               animate={isInView ? { scale: 1, opacity: 1 } : {}}
@@ -97,7 +97,7 @@ export default function CTASection() {
               transition={{ delay: 0.9 }}
             >
               <motion.button
-                onClick={openModal} // MODAL OCHILADI!
+                onClick={openModal} 
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.98 }}
                 className="relative px-16 py-7 bg-gradient-to-r from-indigo-600 to-purple-700 backdrop-blur-2xl border border-white/30 rounded-3xl text-white text-2xl font-bold shadow-2xl overflow-hidden group hover:shadow-purple-600/70 transition-all"

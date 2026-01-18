@@ -1,32 +1,26 @@
-// src/components/sections/AboutShort.jsx → 100% XATOSIZ + NAVIGATE
-
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import { useTranslation } from "react-i18next";
 import { useNavigate } from "react-router-dom";
 
-// partnersData endi kerak emas, shuning uchun olib tashlandi
-// import partnersData from "../../data/partners"; 
-// const displayedPartners = partnersData.slice(0, 8);
 
-// YANGI: Faoliyat ko'rsatkichlari ma'lumotlari (statistika)
 const statsData = [
     {
-        icon: 'M17 20h-5v-11h-5v11h-5v-13h15v13zm-10-8l3-3 3 3v-3h-6v3z', // Misol SVG path (Quyidagi kodda ishlatiladi)
+        icon: 'M17 20h-5v-11h-5v11h-5v-13h15v13zm-10-8l3-3 3 3v-3h-6v3z', 
         value: '50+',
-        titleKey: 'about.stat_projects_title', // "Yakunlangan Loyihalar"
+        titleKey: 'about.stat_projects_title', 
         descKey: 'about.stat_projects_desc',
     },
     {
         icon: 'M12 2c3.31 0 6 2.69 6 6s-2.69 6-6 6-6-2.69-6-6 2.69-6 6-6zm0 14c-4.42 0-8 3.58-8 8h16c0-4.42-3.58-8-8-8z',
         value: '120+',
-        titleKey: 'about.stat_employees_title', // "Kvalifikatsiyali Xodimlar"
+        titleKey: 'about.stat_employees_title', 
         descKey: 'about.stat_employees_desc',
     },
     {
         icon: 'M12 2l-5 5h10l-5-5zM12 22l5-5h-10l5 5zM17 11h-10l-2 2v2h14v-2l-2-2z',
         value: '10K+',
-        titleKey: 'about.stat_production_title', // "Yillik ishlab chiqarish (tonna)"
+        titleKey: 'about.stat_production_title', 
         descKey: 'about.stat_production_desc',
     },
 ];
@@ -41,7 +35,7 @@ export default function AboutShort() {
         navigate('/about');
     };
 
-    // XAVFSIZ USUL: Agar array bo‘lmasa — bo‘sh array qaytaradi
+
     const features = Array.isArray(t("about.features", { returnObjects: true }))
         ? t("about.features", { returnObjects: true })
         : [];
@@ -128,7 +122,7 @@ export default function AboutShort() {
                     initial={{ x: 80, opacity: 0 }}
                     animate={inView ? { x: 0, opacity: 1 } : {}}
                     transition={{ duration: 0.9, delay: 0.3 }}
-                    className="space-y-8" // Yuqori va pastki qismlar orasidagi masofa
+                    className="space-y-8" 
                 >
                     {/* 1. Yillik Tajriba (Yuqori qism, avvalgidek qoldi) */}
                     <div className="p-8 bg-white/8 backdrop-blur-3xl border border-white/10 rounded-3xl">
@@ -149,7 +143,7 @@ export default function AboutShort() {
                                 transition={{ delay: 0.5 + i * 0.2 }}
                                 className="p-6 bg-white/6 backdrop-blur-xl border border-white/10 rounded-2xl text-white hover:bg-white/10 hover:border-white/30 transition-all duration-300 flex flex-col justify-center items-center text-center"
                             >
-                                {/* Ikonka (Misol: SVG) */}
+                               
                                 <svg className="w-10 h-10 text-indigo-400 mb-4" fill="currentColor" viewBox="0 0 24 24">
                                     <path d={stat.icon} />
                                 </svg>
@@ -160,9 +154,6 @@ export default function AboutShort() {
                                 {/* Sarlavha */}
                                 <p className="mt-2 text-sm font-medium text-white/80">{t(stat.titleKey)}</p>
                                 
-                                {/* Qo'shimcha Izoh (kerak bo'lsa)
-                                <p className="mt-1 text-xs text-white/60">{t(stat.descKey)}</p> 
-                                */}
                             </motion.div>
                         ))}
                     </div>

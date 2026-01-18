@@ -1,4 +1,3 @@
-// src/hooks/useLenisScroll.js
 import { useEffect } from "react";
 import { initLenis } from "../lib/lenis";
 

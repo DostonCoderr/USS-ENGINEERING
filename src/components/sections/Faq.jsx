@@ -1,5 +1,3 @@
-// src/components/sections/FAQ.jsx → PREMIUM AKKORDEON + 3 TILDA
-
 import { motion, AnimatePresence, useInView } from "framer-motion";
 import { useRef, useState } from "react";
 import { useTranslation } from "react-i18next";

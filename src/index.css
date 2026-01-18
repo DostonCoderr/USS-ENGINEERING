@@ -4,7 +4,19 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Qo‘shimcha styles (ixtiyoriy) */
+
 body {
   font-family: 'Poppins', sans-serif;
+}
+
+
+
+@keyframes pulseStar {
+  0%, 100% { opacity: 0.3; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.2); }
+}
+
+/* GPU tezlatgichini yoqish */
+.animate-on-scroll, .group {
+  will-change: transform, opacity;
 }

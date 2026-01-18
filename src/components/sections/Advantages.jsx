@@ -1,7 +1,5 @@
-// src/components/sections/Advantages.jsx → 100% ISHLAYDI, XATO YO‘Q!
-
 import { motion, useInView } from "framer-motion";
-import { useRef, useState, useEffect } from "react"; // ← useState va useEffect qo‘shildi!
+import { useRef, useState, useEffect } from "react"; 
 import { useTranslation } from "react-i18next";
 
 export default function Advantages() {
@@ -94,7 +92,7 @@ export default function Advantages() {
   );
 }
 
-// CountUp → endi xato yo‘q!
+
 function CountUp({ end }) {
   const [count, setCount] = useState(0);
   const countRef = useRef(null);

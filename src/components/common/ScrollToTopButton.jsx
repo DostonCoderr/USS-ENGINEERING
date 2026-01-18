@@ -1,11 +1,9 @@
-// src/components/common/ScrollToTopButton.jsx
-
 import { motion } from "framer-motion";
 import { useEffect, useState, useRef } from "react";
 
 export default function ScrollToTopButton() {
   const [isVisible, setIsVisible] = useState(false);
-  const isScrollingRef = useRef(false); // ← MUHIM!
+  const isScrollingRef = useRef(false); 
 
   useEffect(() => {
     const toggle = () => setIsVisible(window.pageYOffset > 500);
@@ -15,7 +13,7 @@ export default function ScrollToTopButton() {
   }, []);
 
   const scrollToTop = () => {
-    // ❗ Scroll davomida yana bosishni bloklaymiz
+ 
     if (isScrollingRef.current) return;
     isScrollingRef.current = true;
 
@@ -23,7 +21,7 @@ export default function ScrollToTopButton() {
       window.lenis.scrollTo(0, {
         duration: 1.6,
         onComplete: () => {
-          isScrollingRef.current = false; // Scroll tugadi → unblock
+          isScrollingRef.current = false; 
         }
       });
     } else {
