@@ -7,7 +7,7 @@ import ReviewsSlider from "../components/sections/ReviewsSlider";
 import PartnersCarousel from "../components/sections/PartnersCarousel";
 import CTASection from "../components/sections/CTASection"; 
 import ContactMap from "../components/sections/ContactMap"; 
-import VideoTestimonials from "../components/sections/VideoTestimonials";
+// import VideoTestimonials from "../components/sections/VideoTestimonials";
 import Calculator from "../components/sections/Calculator";
 import FAQ from "../components/sections/Faq";
 import TechTable from "../components/sections/TechTable";
@@ -23,7 +23,7 @@ export default function Home() {
       <ReviewsSlider />
       <PartnersCarousel />
       <TechTable />
-      <VideoTestimonials />
+      {/* <VideoTestimonials /> */}
       <Calculator />
       <CTASection />
       <FAQ />
